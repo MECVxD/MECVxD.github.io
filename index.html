@@ -2,73 +2,95 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MECVxD</title>
   <link href="styles.css" rel="stylesheet" type="text/css">
   <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
-  <div class="main-container">
-    <img src="images/logo.png" alt="logo">
-    <h1>Mauricio's Portfolio</h1>
-    <hr>
-    <h2>Introduction</h2>
-    <p>
-      Hello and welcome to my portfolio, 
-      here I publish the projects that I have worked on, 
-      skills that I have acquired and things that I would like to learn in the future
-    </p>
-    <hr>
-    <h2>Skills</h2>
-    <table>
-      <tr>
-        <td>Programing Languajes</td>
-        <td>OS</td>
-        <td>Software</td>
-        <td>Other Technologies</td>
-      </tr>
-      <tr>
-        <td>Java</td>
-        <td>Windows</td>
-        <td>Illustrator</td>
-        <td>Git</td>
-      </tr>
-      <tr>
-        <td>Javascript</td>
-        <td>Linux</td>
-        <td>Inkscape</td>
-        <td>Docker</td>
-      </tr>
-      <tr>
-        <td>Python</td>
-        <td></td>
-        <td></td>
-        <td>MySQL</td>
-      </tr>
-    </table>
-    <hr>
-    <h2>Personal Projects</h2>
-    <a href="https://rhythm-practice.web.app/">Rhythm-Practice</a>
-    <p>It is an application focused on learning music, comparing the student's track with that of the teacher, using AI, offering feedback through a score</p>
-    <a href="https://github.com/Rhythm-Practice/backend-dev">Backend Rhythm Practice (GitHub Repo)</a>
-    <p>I coded the backend with Python and external AI APIs</p>
-    <a href="https://mecvxd.github.io/Almuerzi-Frontend/">Almuerzi Web</a>
-    <p>A simple application that has a functional login and allows you to add meals to an order</p>
-    <a href="https://github.com/MECVxD/Almuerzi-Frontend/">Almuerzi-Frontend (GitHub Repo)</a>
-    <p>Frontend was build with HTML, CSS and Javascript</p>
-    <a href="https://github.com/MECVxD/Almuerzi-Backend">Almuerzi-Backend (GitHub Repo)</a>
-    <p>Backend is an API REST was build with NodeJS and deployed with Vercel</p>
-    <a href="https://mecvxd.github.io/vacaciones-cody/">Vacaciones Cody</a>
-    <p>It is a contest in which a page must be modified with HTML, CSS and JS</p>
-    <a href="https://github.com/MECVxD/vacaciones-cody">vacaciones Cody (GitHub Repo)</a>
-    <hr>  
-    <h2>Contact Me</h2>
-    <a href="https://github.com/MECVxD">GitHub</a>
-    <a href="https://www.linkedin.com/in/mauricio-covarrubias-402a66200">Linkedin</a>
-    <hr> 
-    <p>This website is under construction, CSS, JS, projects and more will be added soon. Thanks for visiting</p>
-  </div>
-  <img src="images/soon.png" alt="">
+  <header class="header">
+    <div class="container logo-nav-container">
+      <img src="images/logo.png">
+      <img src="images/menu-icon.png" class="menu-icon" id="menu-icon">
+      <nav class="navigation" class="show">
+        <ul id="nav-ul">
+          <li><a id="inicio">Introduction</a></li>
+          <li><a id="fotos">Skills</a></li>
+          <li><a id="inicio">Personal Projects</a></li>
+          <li><a id="fotos">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <div class="main-container">
+      <h1>Mauricio's Portfolio</h1>
+      <hr>
+      <h2>Introduction</h2>
+      <p>
+        Hello and welcome to my portfolio, 
+        here I publish the projects that I have worked on, 
+        skills that I have acquired and things that I would like to learn in the future
+      </p>
+      <hr>
+      <h2>Skills</h2>
+      <table>
+        <tr>
+          <td>Programing Languajes</td>
+          <td>OS</td>
+          <td>Software</td>
+          <td>Other Technologies</td>
+        </tr>
+        <tr>
+          <td>Java</td>
+          <td>Windows</td>
+          <td>Illustrator</td>
+          <td>Git</td>
+        </tr>
+        <tr>
+          <td>Javascript</td>
+          <td>Linux</td>
+          <td>Inkscape</td>
+          <td>Docker</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td></td>
+          <td></td>
+          <td>MySQL</td>
+        </tr>
+      </table>
+      <hr>
+      <h2>Personal Projects</h2>
+      <a href="https://rhythm-practice.web.app/">Rhythm-Practice</a>
+      <p>It is an application focused on learning music, comparing the student's track with that of the teacher, using AI, offering feedback through a score</p>
+      <a href="https://github.com/Rhythm-Practice/backend-dev">Backend Rhythm Practice (GitHub Repo)</a>
+      <p>I coded the backend with Python and external AI APIs</p>
+      <a href="https://mecvxd.github.io/Almuerzi-Frontend/">Almuerzi Web</a>
+      <p>A simple application that has a functional login and allows you to add meals to an order</p>
+      <a href="https://github.com/MECVxD/Almuerzi-Frontend/">Almuerzi-Frontend (GitHub Repo)</a>
+      <p>Frontend was build with HTML, CSS and Javascript</p>
+      <a href="https://github.com/MECVxD/Almuerzi-Backend">Almuerzi-Backend (GitHub Repo)</a>
+      <p>Backend is an API REST was build with NodeJS and deployed with Vercel</p>
+      <a href="https://mecvxd.github.io/vacaciones-cody/">Vacaciones Cody</a>
+      <p>It is a contest in which a page must be modified with HTML, CSS and JS</p>
+      <a href="https://github.com/MECVxD/vacaciones-cody">vacaciones Cody (GitHub Repo)</a>
+      <hr>  
+      <h2>Contact Me</h2>
+      <a href="https://github.com/MECVxD">GitHub</a>
+      <a href="https://www.linkedin.com/in/mauricio-covarrubias-402a66200">Linkedin</a>
+      <hr> 
+      <p>This website is under construction, CSS, JS, projects and more will be added soon. Thanks for visiting</p>
+    </div>
+    <img src="images/soon.png" alt="">
+  </main>  
+  <footer class="footer">
+    <div class="container">
+      <p>Maked with ❤️ by MECVxD</p>
+    </div>
+  </footer>
 </body>
+<script src="main.js"></script>
 </html>
 
 
