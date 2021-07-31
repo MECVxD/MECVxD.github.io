@@ -1,6 +1,6 @@
 body {
-  background-color: #676787;
-  font-family: georgia, Times, serif;
+  background: linear-gradient(to bottom, #676787, #b9b0c9);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
   font-size: 1rem;
   line-height: 1.6em;
@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-  background-color: #16163d;
+  background: linear-gradient(90deg, #16163d, #2e1d5e);
   color: #fff;
   padding: 1rem 0;
   position: fixed;
@@ -91,7 +91,7 @@ img {
 }
 
 .footer {
-  background-color: #16163d;
+  background: linear-gradient(90deg, #16163d, #2e1d5e);
   padding: 0.5rem 0;
   text-align: center;
   margin-top: 6rem;
