@@ -104,6 +104,14 @@ a {
   color: #fff;
   text-decoration: none;
 }
+/* 
+a:hover {
+  color: #2e1d5e;
+} */
+
+.show {
+  background-color: #55a5ed;
+}
 
 @media only screen and (max-width: 767px) {
   .menu-icon {
