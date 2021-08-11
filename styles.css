@@ -6,6 +6,7 @@ body {
   line-height: 1.6em;
   margin: 0;
   text-shadow: 1px 1px 2px black;
+  z-index: 1;
 }
 
 .header {
@@ -29,6 +30,7 @@ body {
   width: 85%;
   max-width: 850px;
   margin: 0 auto;
+  z-index: 0;
 }
 
 .logo-nav-container {
@@ -91,6 +93,13 @@ img {
   max-width: 60px;
 }
 
+.soon {
+  height: auto;
+  width: auto;
+  max-height: 300px;
+  max-width: 300px;
+}
+
 .operating-systems {
   display: flex;
   text-align: center;
@@ -142,6 +151,26 @@ img {
   margin-right: 1rem;
 }
 
+.design {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.design div {
+  margin-right: 1rem;
+}
+
+.other-technologies {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.other-technologies div {
+  margin-right: 1rem;
+}
+
 .footer {
   background: linear-gradient(90deg, #16163d, #2e1d5e);
   padding: 0.5rem 0;
@@ -156,7 +185,7 @@ a {
   text-decoration: none;
 }
 
-.show {
+.cursor {
   background-color: #55a5ed;
 }
 
