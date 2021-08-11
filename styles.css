@@ -6,6 +6,7 @@ body {
   line-height: 1.6em;
   margin: 0;
   text-shadow: 1px 1px 2px black;
+  z-index: 1;
 }
 
 .header {
@@ -29,6 +30,7 @@ body {
   width: 85%;
   max-width: 850px;
   margin: 0 auto;
+  z-index: 0;
 }
 
 .logo-nav-container {
@@ -87,8 +89,86 @@ p {
 img {
   height: auto;
   width: auto;
-  max-height: 800px;
-  max-width: 800px;
+  max-height: 60px;
+  max-width: 60px;
+}
+
+.soon {
+  height: auto;
+  width: auto;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.operating-systems {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.operating-systems div {
+  margin-right: 1rem;
+}
+
+.programing-languajes {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.programing-languajes div {
+  margin-right: 1rem;
+}
+
+.front-end {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.front-end div {
+  margin-right: 1rem;
+}
+
+.back-end {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.back-end div {
+  margin-right: 1rem;
+}
+
+.databases {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.databases div {
+  margin-right: 1rem;
+}
+
+.design {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.design div {
+  margin-right: 1rem;
+}
+
+.other-technologies {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.other-technologies div {
+  margin-right: 1rem;
 }
 
 .footer {
@@ -105,7 +185,7 @@ a {
   text-decoration: none;
 }
 
-.show {
+.cursor {
   background-color: #55a5ed;
 }
 
