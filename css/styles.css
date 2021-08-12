@@ -4,7 +4,7 @@ body {
   color: #fff;
   font-size: 1rem;
   line-height: 1.6em;
-  margin: 0;
+  margin: 0 auto;
   text-shadow: 1px 1px 2px black;
   z-index: 1;
 }
@@ -77,6 +77,12 @@ main {
   padding-top: 7rem;
 }
 
+.skills {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 h1 {
   font-size: 2rem;
   line-height: 1.3em;
@@ -100,75 +106,15 @@ img {
   max-width: 300px;
 }
 
-.operating-systems {
+.skills-main {
   display: flex;
-  text-align: center;
-  align-items: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
-.operating-systems div {
-  margin-right: 1rem;
-}
-
-.programing-languajes {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.programing-languajes div {
-  margin-right: 1rem;
-}
-
-.front-end {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.front-end div {
-  margin-right: 1rem;
-}
-
-.back-end {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.back-end div {
-  margin-right: 1rem;
-}
-
-.databases {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.databases div {
-  margin-right: 1rem;
-}
-
-.design {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.design div {
-  margin-right: 1rem;
-}
-
-.other-technologies {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.other-technologies div {
-  margin-right: 1rem;
+.skills-main div {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer {
