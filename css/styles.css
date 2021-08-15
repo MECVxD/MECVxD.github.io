@@ -79,7 +79,6 @@ main {
 
 .skills {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
 }
@@ -88,7 +87,7 @@ main {
   list-style: none;
 }
 
-.main-projects a:hover {
+.main-container a:hover {
   color: #55a5ed;
 }
 
@@ -102,6 +101,7 @@ ul li::marker {
 h1 {
   font-size: 2rem;
   line-height: 1.3em;
+  text-align: center;
 }
 
 p {
@@ -155,7 +155,6 @@ img {
 
 a {
   color: #fff;
-  text-decoration: none;
 }
 
 .cursor {
@@ -191,6 +190,10 @@ a {
 
   .navigation ul li {
     display: block;
+  }
+
+  .skills {
+    flex-wrap: wrap;
   }
 
   .navigation ul li a {
